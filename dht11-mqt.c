@@ -9,8 +9,8 @@
 #include "nvs_flash.h"
 
 // Configurações de WiFi e MQTT
-const char* ssid = "JENIFER2G"; // Substitua pelo nome da sua rede WiFi
-const char* password = "32481557"; // Substitua pela senha da sua rede WiFi
+const char* ssid = "JENIFER2G"; // nome da rede WiFi
+const char* password = "32481557"; //  senha da rede WiFi
 const char* mqtt_server = "mqtt://test.mosquitto.org"; // Broker MQTT público
 
 // Pino do sensor DHT11 (D4 corresponde ao GPIO2)
